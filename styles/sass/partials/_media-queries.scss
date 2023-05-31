@@ -21,6 +21,7 @@
         // position: relative;
         
         label {
+            cursor: pointer;
             display: block;
             &:focus-within {
                 border: 2px solid blue;

@@ -494,6 +494,7 @@ footer {
     text-align: center;
   }
   .header-top-bar label {
+    cursor: pointer;
     display: block;
   }
   .header-top-bar label:focus-within {
