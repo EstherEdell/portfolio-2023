@@ -280,7 +280,7 @@ header ul a {
 }
 
 .header-image {
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .header-top-bar input {
@@ -291,7 +291,13 @@ header ul a {
 }
 
 .about-me {
+  background: url(../assets/bg-effect-3.png);
+  background-size: cover;
   padding: 60px 0;
+}
+.about-me h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-me .wrapper {
@@ -540,6 +546,7 @@ footer {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    padding: 0 20px;
   }
   .about-text {
     margin-bottom: 40px;
