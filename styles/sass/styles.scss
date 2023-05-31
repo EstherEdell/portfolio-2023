@@ -1,0 +1,9 @@
+@use "partials/setup";
+@use "partials/variables" as *;
+@use "partials/header";
+@use "partials/sections";
+@use "partials/footer";
+@use "partials/media-queries";
+body {
+    font-family: $baseFont;
+}

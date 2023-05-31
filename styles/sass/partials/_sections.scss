@@ -1,0 +1,89 @@
+@use 'variables' as *;
+
+.about-me {
+    padding: 60px 0;
+}
+.about-me .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    width: 60%;
+    align-self: center;
+    line-height: 1.4;
+}
+
+.about-image {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+.skills {
+    background: url('../assets/bg-effect-2.png');
+    padding: 40px 0;
+     li {
+        display: flex;
+    }
+    ul {
+        margin-top: 20px;
+        display: grid;
+        // grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    li {
+        align-items: center;
+        border: 2px solid black;
+        // width: calc(100% / 5);
+        padding: 15px;
+        // margin-right: 15px; 
+        font-size: 0.8rem;
+        min-width: 150px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        i {
+             border: 2px solid black;
+             width: 50px;
+             height: 50px;
+             background: white;
+             font-size: 1.4rem;
+             margin-right: 10px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        
+    }
+}
+
+.skill-1 {
+    background: #9bd2cf;
+}
+
+.skill-2 {
+    background: #fec447;
+}
+
+.skill-3 {
+    background: #feccb4;
+}
+
+.skill-4 {
+    background: #92b5ff;
+}
+
+.skill-5 {
+    background: #c4d39b;
+}
+
+.projects {
+    padding: 40px;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+@use './variables' as *;
+
+footer {
+    background: $darkColour;
+    color: white;
+    padding: 60px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .footer-image {
+        width: 40%;
+        min-width: 320px;
+    }
+    .footer-contact {
+        margin-right: 20px;
+    }
+}
+.contact-box {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    
+    h3 {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    p, a {
+        margin: 5px 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    a {
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+.contact-box {
+    a {
+        color: white;
+        text-decoration: underline;
+        margin-top: 5px;
+    }
+    i {
+        background: #fec447;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        color: $darkColour;
+    }
+
+    .fa-linkedin-in {
+        background: #92b5ff;
+    }
+}
